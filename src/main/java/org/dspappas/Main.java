@@ -5,6 +5,6 @@ public class Main {
 
         // Start Game
         Game game = new Game();
-//        game.pressStart();
+        game.pressStart();
     }
 }
