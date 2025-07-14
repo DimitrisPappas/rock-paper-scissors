@@ -24,7 +24,7 @@ public class Game {
         displayOutput();
     }
 
-    private Choice randomChoice() {
+    public Choice randomChoice() {
         Choice result = null;
         double randomNumber = random() * 3;
         int roundRandomNumber = (int) floor(randomNumber);
